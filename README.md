@@ -33,11 +33,43 @@ Using Visual Studio Code with Git & Github
         - Accept Current Change to keep your version.
         - Accept Incoming Change to keep the incoming version.
         - Accept Both Changes to keep both versions. 
-    For more complex changes, there is a 3 way editor which shows the Current Version, Incoming Version, and what the result would be. It will let you accept either the incoming or current change, combine them, or ignore them.
+    5. For more complex changes, there is a 3 way editor which shows the Current Version, Incoming Version, and what the result would be. It will let you accept either the incoming or current change, combine them, or ignore them.
     
+Glossary
+---------  
+- Branch
+    A seperate workspace where changes can be made without affecting the main branch.
+- Clone
+    A full copy of a repository, with all versions of files and logging.
+- Commit
+    Saves a snapshot of staged changes, creating a historical point where project progress can be tracked and managed.
+- Fetch
+    Command which retrieves latest commit history from remote repository, but does not merge it.
+- GIT
+    Version control system, tracks file changes and stores data as snapshots, making collaboration on projects easier.
+- Github
+    Cloud-based platform which allows for easy storing, sharing, and collaboration on projects. Uses GIT which allows for easy tracking and management of code.
+- Merge
+    Combining changes from one branch to another.
+- Merge Conflict
+    When two branches modify the same part of a file.
+- Push
+    Uploads any commits from local repository to the remote repository.
+- Pull
+    Command which retrieves latest commit history from remote repository, and merges it into the local repository.
+- Remote
+    Version of project that is stored on the Internet,
+- Repository
+    A storage space where project files and their history are kept. Allows for reverting to any previous project state, and easy cloning.
+
 References
 ---------  
     - https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup
     - https://code.visualstudio.com/docs/sourcecontrol/github
     - https://about.gitlab.com/blog/git-pull-vs-git-fetch-whats-the-difference/
     - https://code.visualstudio.com/docs/sourcecontrol/merge-conflicts
+    - https://www.w3schools.com/git/default.asp
+    - https://www.geeksforgeeks.org/git/introduction-to-github/
+    - https://docs.github.com/en/get-started/start-your-journey/about-github-and-git
+    - https://git-scm.com/book/ms/v2/Git-Basics-Working-with-Remotes
+    - https://www.geeksforgeeks.org/git/what-is-a-git-repository/
