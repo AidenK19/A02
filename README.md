@@ -11,10 +11,9 @@ Using Visual Studio Code with Git & Github
 
 - Set up Git and Github for use with Visual Studio Code
     1. Install **Git** from https://git-scm.com/install/windows , and run the installer.
-    2. Open Command Prompt, and type:
-        git config --global user.name "Your Name"
-	    git config --global user.email "your.email@example.com"
-    This will configure Git and allow you to push changes.
+    2. To configure Git, open Command Prompt and type:
+        - git config --global user.name "Your Name"
+	    - git config --global user.email "your.email@example.com"
     3. Go back to Visual Studio Code, and hit the icon that looks like a forking road (Source Control), and hit **Clone** Repository. A bar will appear at the top of the screen- hit "Clone from Github"
     4. Authorize it to sign in with your Github Account.
     5. Select the repository you wish to use with Visual Studio Code, and a folder on your computer you wish to clone the repository into.
