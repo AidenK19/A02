@@ -23,10 +23,21 @@ Using Visual Studio Code with Git & Github
 - Using Git and Github with Visual Studio Code
     1. Once you edit or create a file, you need to stage the change. In the Source Control panel, hit the plus icon on the file you have modified.
     2. You can now Commit the change to your local repository by hitting the Commit button. Make sure to give a description of what you modified!
-
-
-
-
-REFERENCES:
-    https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup
-    https://code.visualstudio.com/docs/sourcecontrol/github
+    3. You can now Push the changes to the repository on Github. In the Graph Panel (found in Source Control), hit the Push button (arrow pointing up).
+    
+- Extra Tips and Tricks
+    1. To change branches, hit the Source Control icon on the bottom left of the screen. This will let you create and swap into different branches, letting you work on features or changes seperately.
+    2. If you ever want to see the differences between your local repository and the remote repository, you can use Fetch. Hit the Fetch button (dotted down arrow) in the Graph panel. It will download the contents of the repository, but won't merge them.
+    3. Pull (solid down arrow) is another option to download the contents of the remote repository, but will automatically merge them with your local copy. 
+    4. When merging changes, sometimes changes conflict with each other, causing a Merge Conflict. Visual Studio Code will automatically mark the lines that are causing conflicts. For simple conflicts, you can resolve them directly in the editor.
+        - Accept Current Change to keep your version.
+        - Accept Incoming Change to keep the incoming version.
+        - Accept Both Changes to keep both versions. 
+    For more complex changes, there is a 3 way editor which shows the Current Version, Incoming Version, and what the result would be. It will let you accept either the incoming or current change, combine them, or ignore them.
+    
+References
+---------  
+    - https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup
+    - https://code.visualstudio.com/docs/sourcecontrol/github
+    - https://about.gitlab.com/blog/git-pull-vs-git-fetch-whats-the-difference/
+    - https://code.visualstudio.com/docs/sourcecontrol/merge-conflicts
