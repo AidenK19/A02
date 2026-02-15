@@ -38,29 +38,29 @@ Using Visual Studio Code with Git & Github
 Glossary
 ---------  
 - Branch
-    A seperate workspace where changes can be made without affecting the main branch.
+    - A seperate workspace where changes can be made without affecting the main branch.
 - Clone
-    A full copy of a repository, with all versions of files and logging.
+    - A full copy of a repository, with all versions of files and logging.
 - Commit
-    Saves a snapshot of staged changes, creating a historical point where project progress can be tracked and managed.
+    - Saves a snapshot of staged changes, creating a historical point where project progress can be tracked and managed.
 - Fetch
-    Command which retrieves latest commit history from remote repository, but does not merge it.
+    - Command which retrieves latest commit history from remote repository, but does not merge it.
 - GIT
-    Version control system, tracks file changes and stores data as snapshots, making collaboration on projects easier.
+   - Version control system, tracks file changes and stores data as snapshots, making collaboration on projects easier.
 - Github
-    Cloud-based platform which allows for easy storing, sharing, and collaboration on projects. Uses GIT which allows for easy tracking and management of code.
+    - Cloud-based platform which allows for easy storing, sharing, and collaboration on projects. Uses GIT which allows for easy tracking and management of code.
 - Merge
-    Combining changes from one branch to another.
+    - Combining changes from one branch to another.
 - Merge Conflict
-    When two branches modify the same part of a file.
+    - When two branches modify the same part of a file.
 - Push
-    Uploads any commits from local repository to the remote repository.
+    - Uploads any commits from local repository to the remote repository.
 - Pull
-    Command which retrieves latest commit history from remote repository, and merges it into the local repository.
+    - Command which retrieves latest commit history from remote repository, and merges it into the local repository.
 - Remote
-    Version of project that is stored on the Internet,
+    - Version of project that is stored on the Internet,
 - Repository
-    A storage space where project files and their history are kept. Allows for reverting to any previous project state, and easy cloning.
+    - A storage space where project files and their history are kept. Allows for reverting to any previous project state, and easy cloning.
 
 References
 ---------  
